@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ifoodkaian/pages/profile.dart';
+import 'package:ifoodkaian/pages/search.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -14,7 +15,7 @@ class _HomePageState extends State<HomePage> {
 
   List paginas = [
     const Text('freitas'),
-    const Text('Cauê'),
+    SearchPage(),
     const Text('Eu'),
     const ProfilePage(),
   ];

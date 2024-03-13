@@ -150,8 +150,6 @@ class ProfilePage extends StatelessWidget {
             title: const Text('Sugerir restaurantes'),
             trailing: const Icon(Icons.arrow_right),
           ),
-          
-
         ],
       ),
     );
